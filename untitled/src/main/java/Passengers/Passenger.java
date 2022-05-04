@@ -4,13 +4,13 @@ public class Passenger {
 
     private String name;
     private long telNumber;
-    private int id;
+    private int passengerId;
 
 
-    public Passenger(String name, long telNumber, int id) {
+    public Passenger(String name, long telNumber, int passengerId) {
         this.name = name;
         this.telNumber = telNumber;
-        this.id = id;
+        this.passengerId = passengerId;
     }
 
     public String getName() {
@@ -21,8 +21,8 @@ public class Passenger {
         return telNumber;
     }
 
-    public int getId() {
-        return id;
+    public int getPassengerId() {
+        return passengerId;
     }
 
 
