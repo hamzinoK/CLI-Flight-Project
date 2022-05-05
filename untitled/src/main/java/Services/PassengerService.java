@@ -3,8 +3,6 @@ package Services;
 import Passengers.Passenger;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 
 public class PassengerService {

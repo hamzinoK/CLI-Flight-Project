@@ -11,9 +11,7 @@ public class FlightService {
 
     public FlightService() {
         this.flights = new ArrayList<>();
-
     }
-
 
     public List<Flight> getFlights() {
         return flights;
