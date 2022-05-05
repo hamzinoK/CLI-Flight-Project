@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Airline {
+    private PassengerService passengerService;
+    private FlightService flightService;
 
 
     public Airline(PassengerService passengerService, FlightService flightService) {
@@ -14,9 +16,7 @@ public class Airline {
         this.flightService = flightService;
     }
 
-    private PassengerService passengerService;
-    private FlightService flightService;
-
+    
 
     public static void main(String[] args) {
 
@@ -26,8 +26,13 @@ public class Airline {
             String passengerName = scanner.nextLine();
             System.out.println("Hello " + passengerName + ", Would you like to book a flight?");
         }
+
+
+
+
+
     }
-    
+
 
 //    public static void printHelp() {
 //        String instructions = "Commands: " + System.lineSeparator() +
