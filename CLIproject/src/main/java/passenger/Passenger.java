@@ -25,5 +25,13 @@ public class Passenger {
         return passengerId;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Passenger{" +
+//                "name='" + name + '\'' +
+//                ", telNumber=" + telNumber +
+//                ", id=" + Id +
+//                '}';
+//    }
 
 }

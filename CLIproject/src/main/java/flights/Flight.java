@@ -27,4 +27,13 @@ public class Flight {
     public List<Passenger> getPassenger() {
         return passenger;
     }
+
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "destination='" + destination + '\'' +
+                ", flightId=" + flightId +
+
+                '}';
+    }
 }

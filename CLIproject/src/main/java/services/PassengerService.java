@@ -28,5 +28,7 @@ public class PassengerService {
         passengers.remove(passenger);
     }
 
+    public void getPassengerById(int passengerId) {this.getPassengerById(passengerId);}
+
 
 }

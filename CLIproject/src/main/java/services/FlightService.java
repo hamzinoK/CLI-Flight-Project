@@ -28,5 +28,7 @@ public class FlightService {
         this.flights.remove(flight);
     }
 
+    public void getFlightById(int flightId) {this.getFlightById(flightId);}
+
 }
 
